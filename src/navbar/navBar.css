@@ -1,93 +1,108 @@
-.aside{
-background-color: rgb(169, 85, 248);
-display: flex;
-flex-direction: column;
-padding:  1rem;
-max-width: min-content;
-height: 100%;
-row-gap: 1rem;
+.aside {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  max-width: min-content;
+  height: 100%;
+  row-gap: 1rem;
+  background: #ffffff;
+  border: 6px solid #ffffff;
+  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.15);
+  border-radius: 25px 0 0 25px;
 }
 
-.aside__off{
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    
+.aside__off {
+  width: 50px;
+  height: 50px;
+  align-self: center;
 }
 
-.aside__nav{
-
+.aside__nav {
 }
 
-.aside__nav__container{
-    display: flex;
-    flex-direction: column;
+.aside__nav__container {
+  display: flex;
+  flex-direction: column;
 }
 
-.container__box{
-    justify-content:  center;
-    justify-content: start;
-    display:flex ;
-    align-items: center;
-    column-gap: 1rem;
-    margin: 1rem;
-    width: 144px;
-    height: 40px;
+.container__box {
+  justify-content: center;
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin: 1rem;
+  width: 144px;
+  height: 40px;
 }
 .container__box p {
-    color: #A7B7DD;
-
+  color: #a7b7dd;
 }
-.container__box:nth-child(1){
-    color: #2A4178;
-    background: #F8FAFF;
-    box-shadow: 0px 4px 10px rgba(175, 137, 255, 0.15);
-    border-radius: 8px;
+.container__box:nth-child(1) {
+  color: #2a4178;
+  background: #f8faff;
+  box-shadow: 0px 4px 10px rgba(175, 137, 255, 0.15);
+  border-radius: 8px;
 }
 .container__box h1 {
-    font-size: 1rem;
-    
+  font-size: 1rem;
 }
 
-.container__box img{
-    padding-left: .8rem;
-
+.container__box img {
+  padding-left: 0.8rem;
 }
 
-.sopportSection{
-
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    row-gap: 1.5rem;
-
+.sopportSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 1.5rem;
 }
-.customerSupport{
-    /* Customer Support */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 1rem;
-line-height: 20px;
-color: #000000;
-padding-left: .5rem;
-
+.customerSupport {
+  /* Customer Support */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000000;
+  margin-right: 5rem;
 }
-textarea{
-    width: 130px;
-    border: transparent;
-    margin-left: 2rem;
-
-}
-.sopportSection div{
-    text-align: center;
+textarea {
+  border: transparent;
+  margin-left: 2rem;
+  resize: none; /* Evita que el textarea sea redimensionable */
+  max-height: 90px;
+  
 }
 
-.iconSupport{
-display: flex;
-padding-left: 2rem;
-flex-wrap: wrap;
+.sopportSection div {
+  text-align: center;
 }
-.policy{
-    padding: 1rem;
+
+.iconSupport {
+  display: flex;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+  background-color: #c3dffa;
+  width: max-content;
+  padding: 0.7rem;
+  column-gap: 0.5rem;
+  background: #c3dffa;
+  border-radius: 8px;
+}
+.policy {
+  /* Terms & Services Privacy Policy */
+  text-align: start;
+  width: 138px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #b9b9b9;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
