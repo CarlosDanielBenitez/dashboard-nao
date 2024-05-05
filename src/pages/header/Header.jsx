@@ -1,7 +1,7 @@
 import "./header.css";
 const Header = () => {
   return (
-    <>
+    <div className="headerGlobal" >
     <div className="headerSection">
         <p className="totalRevenue">Total Revenue</p>
       <div>
@@ -25,7 +25,14 @@ const Header = () => {
             <img src="/public/header/search.svg" alt="" />
         </div>
     </div>
-    </>
+    <div className="headerIconNotifications">
+
+   <img src="../../../public/header/messenger.svg" alt="" />
+   <img src="../../../public/header/notification.svg" alt="" />
+   <img src="../../../public/header/user.svg" alt="" />
+    </div>
+
+    </div>
   );
 };
 

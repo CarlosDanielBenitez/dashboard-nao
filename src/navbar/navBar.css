@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.5rem 1rem;
-  max-width: min-content;
+  max-width: 250px;
   height: 100%;
   row-gap: 1rem;
   background: #ffffff;
@@ -67,13 +67,14 @@
   font-size: 1rem;
   line-height: 20px;
   color: #000000;
-  margin-right: 5rem;
+  margin-right: 2.6rem;
+
 }
 textarea {
   border: transparent;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   resize: none; /* Evita que el textarea sea redimensionable */
-  max-height: 90px;
+  max-height: 7.5rem;
   
 }
 
@@ -83,7 +84,7 @@ textarea {
 
 .iconSupport {
   display: flex;
-  margin-left: 2rem;
+  margin-left: 1.4rem;
   flex-wrap: wrap;
   background-color: #c3dffa;
   width: max-content;
@@ -102,7 +103,7 @@ textarea {
   font-weight: 500;
   line-height: 16px;
   color: #b9b9b9;
-  margin-left: 2rem;
+  margin-left: 1.6rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }

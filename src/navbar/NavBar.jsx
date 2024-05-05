@@ -1,7 +1,7 @@
 import "./navBar.css";
 const NavBar = () => {
   return (
-    <header className="aside">
+    <header className="aside mr-4">
       <img className="aside__off" src="/public/navbar/off.svg" alt="" />
       <nav className="aside__nav">
         <ul className="aside__nav__container">
