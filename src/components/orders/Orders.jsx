@@ -1,13 +1,13 @@
 import "./orders.css";
-const Orders = ({ title, num, image }) => {
+const Orders = ({ title, number, image }) => {
   return (
-    <div className="bg-red-300 flex p-2 container">
-      <div>
+    <div className=" p-2 pt-3 container">
+      <div >
         <h1>{title}</h1>
-        <img src={image} alt={title} />
       </div>
-      <div className="flex">
-        <h2 className="mt-10">{num}</h2>
+      <div className="flex justify-between">
+        <img src={image} alt={title} />
+        <h2 className=" mr-1 text-end text-4xl">{number}</h2>
       </div>
     </div>
   );
